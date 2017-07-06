@@ -4,16 +4,16 @@ import java.util.*;
 public class LCParrays {
   
   public static void main(String[] args) throws IOException{
-      BufferedReader bb = new BufferedReader(new InputStreamReader(System.in));
+      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       Integer n,i,min=0,j,count,max=0;
       ArrayList<String> hl = new ArrayList<String>();
       
-      n = Integer.parseInt(bb.readLine());
+      n = Integer.parseInt(br.readLine());
       String[] s = new String[n];
       Integer[] ii = new Integer[n];
       String[] s1 = new String[n];
       for(i=0;i<s.length;i++){
-        s[i] = bb.readLine();
+        s[i] = br.readLine();
         hl.add(s[i]);
       }
       
